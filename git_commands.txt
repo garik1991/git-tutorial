@@ -7,6 +7,15 @@ git add .(adds all the files with changes to be commited)
 .gitignore contains all file/directory names that should not be commited
 git branch(shows the branch the developer is working on)
 git branch test(creates a new branch with the name test)
+
+git branch -D test(deletes the branch)
+git checkout test
+git checkout -b test(creates a new branch and checkouts it immediately)
+
+https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc
+
+git push / pushes all the changes on that branch
+
 git merge test(the name of the branch to be merged)
 (specify this before commiting your changes to github) git config user.name Garik git config user.email ....
 
@@ -20,4 +29,7 @@ git branch -M main / this will change the initial master branch to main
 git remote add origin https://github.com/garik1991/git-tutorial.git
 git push -u origin main
 
+<<<<<<< HEAD
 Implement git pull command every time you start to work on something
+=======
+>>>>>>> 3b90d69652647a9ef9ac75d5915aa3f97bccdd81
