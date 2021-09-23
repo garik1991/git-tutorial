@@ -16,5 +16,8 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main / this will change the initial master branch to main
+(we need to implement this statement in order to add a new local branch to the github)
 git remote add origin https://github.com/garik1991/git-tutorial.git
 git push -u origin main
+
+Implement git pull command every time you start to work on something
