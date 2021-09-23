@@ -10,3 +10,7 @@ git branch test(creates a new branch with the name test)
 git branch -D test(deletes the branch)
 git checkout test
 git checkout -b test(creates a new branch and checkouts it immediately)
+
+https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc
+
+git push / pushes all the changes on that branch
