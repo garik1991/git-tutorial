@@ -7,3 +7,4 @@ git add .(adds all the files with changes to be commited)
 .gitignore contains all file/directory names that should not be commited
 git branch(shows the branch the developer is working on)
 git branch test(creates a new branch with the name test)
+git merge test(the name of the branch to be merged)
