@@ -1,0 +1,9 @@
+git init
+git status
+git add index.html(or click + button on the right of every file)
+git rm --cached ./git_commands(the oposite of git add)
+cls(cleans the terminal in windows OS)
+git add .(adds all the files with changes to be commited)
+.gitignore contains all file/directory names that should not be commited
+git branch(shows the branch the developer is working on)
+git branch test(creates a new branch with the name test)
