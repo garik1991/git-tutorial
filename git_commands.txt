@@ -8,3 +8,13 @@ git add .(adds all the files with changes to be commited)
 git branch(shows the branch the developer is working on)
 git branch test(creates a new branch with the name test)
 git merge test(the name of the branch to be merged)
+(specify this before commiting your changes to github) git config user.name Garik git config user.email ....
+
+These are the steps one needs to do in order toconnect his local project to github
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main / this will change the initial master branch to main
+git remote add origin https://github.com/garik1991/git-tutorial.git
+git push -u origin main
