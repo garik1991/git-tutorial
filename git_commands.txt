@@ -33,4 +33,8 @@ Implement git pull command every time you start to work on something
 
 git rm file.txt or . or *.txt will remove the file both from workflow and directory
 
-git rm --cached -r logs/   //moves the directory to gitignore
+git rm --cached -r logs/   //if you have already added this file to git and commited the command can unstage it, then you can add it to gitignore
+
+git diff --staged  shows the changes
+
+git log //shows commit history
