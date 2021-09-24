@@ -29,7 +29,8 @@ git branch -M main / this will change the initial master branch to main
 git remote add origin https://github.com/garik1991/git-tutorial.git
 git push -u origin main
 
-<<<<<<< HEAD
 Implement git pull command every time you start to work on something
-=======
->>>>>>> 3b90d69652647a9ef9ac75d5915aa3f97bccdd81
+
+git rm file.txt or . or *.txt will remove the file both from workflow and directory
+
+git rm --cached -r logs/   //moves the directory to gitignore
